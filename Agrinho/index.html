@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mapa - Fazendas do Paraná</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+   <img class="Logo" src="Logotipo.png" alt="">
+  </header>
+
+  <main>
+    <section id="mapa">
+      <h2>Fazendas que utilizam sua conexão com a cidade e sua tecnologia.</h2>
+      <div id="mapa-container">
+        <img src="MapaParaná.png" alt="Mapa do Paraná" id="mapa-img" />
+        <!-- Marcadores serão inseridos via JS -->
+      </div>
+      <div id="info-box">
+        <p>Clique em um ponto no mapa para ver mais informações.</p>
+        <div id="fazenda-info" class="hidden">
+          <h3 id="fazenda-nome"></h3>
+          <p id="fazenda-desc"></p>
+          <p id="fazenda-impacto"></p>
+          <div id="carrossel" class="hidden">
+            <button id="btn-esquerda">◀</button>
+            <img id="foto-atual" src="" alt="Foto da fazenda" />
+            <button id="btn-direita">▶</button>
+          </div>          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

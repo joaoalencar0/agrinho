@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5fff5;
+    color: #333;
+  }
+  
+  header {
+    background-color:#00c555 ;
+    padding: 1rem;
+  }
+  
+  .Logo{
+    width: 20%;
+    position: relative;
+    left: 38%;
+  }
+
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  #mapa-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border: 2px solid #145a32;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  #mapa-img {
+    width: 100%;
+    display: block;
+  }
+  
+  .marcador {
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+  
+  #info-box {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  #fazenda-info {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #e8ffe8;
+  }
+  
+  #fazenda-foto {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  #carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#carrossel button {
+  background-color: #145a32;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#foto-atual {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
